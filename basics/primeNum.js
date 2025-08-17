@@ -14,7 +14,7 @@ function isPrime(n) {
 }
 
 // // isPrime(1)
-// // isPrime(2)
+// isPrime(2)
 // // isPrime(3)
 // // isPrime(5)
 // // isPrime(7)

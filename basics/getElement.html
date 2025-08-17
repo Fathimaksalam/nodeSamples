@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="heading">Learning web development</h2>
+    <h3 class="head">Document Object Model</h3>
+    <h3 class="head">Document Object Model-1</h3>
+
+    <script>
+        document.getElementById('heading').innerHTML='Learn JS'
+        document.getElementsByClassName('head')[0].innerHTML='Basic Javascript'
+        document.getElementsByClassName('head')[1].innerHTML='Basic Javascript-1'
+        document.getElementsByTagName('h3')[0].innerHTML='MERNSTACK'
+        document.getElementsByTagName('h3')[1].innerHTML='FullStack'
+        document.getElementById('heading').style.color='Red'
+        document.getElementById('heading').style.fontSize='40px'
+        document.getElementById('heading').style.fontFamily='Courier New,Courier,monospace'
+        let firstTitle = document.querySelector('h2')
+        firstTitle.innerHTML='Hello World'
+        document.querySelector('h3').innerHTML= 'Hii'
+        document.querySelector('.head').innerHTML= 'Hellooooo'
+        document.querySelector('#heading').innerHTML= 'query selector'
+        const titles = document.querySelectorAll('h3')
+        titles[1].textContent = 'abcd'
+    </script> 
+</body>
+</html>

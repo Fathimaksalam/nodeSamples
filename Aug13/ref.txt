@@ -1,0 +1,13 @@
+        // let query = url.split("?")[1];     // part after ?
+        // let params = query.split("&");   
+        // console.log(query)
+        // console.log(params)
+        // let obj = {};
+        // for (let i = 0; i < params.length; i++) {
+        //     let kv = params[i].split("=");
+        //     console.log(kv)
+        //     console.log(kv[0])
+        //     console.log(kv[1])
+        //     obj[kv[0]] = kv[1];
+        // }
+        // console.log(obj)

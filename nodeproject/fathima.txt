@@ -1,0 +1,3 @@
+welcome to NodeJS
+ appending new text without deleting old oneAppended new data on august 9th as a part of learning fs module
+Appended new data on august 9th as a part of learning fs module

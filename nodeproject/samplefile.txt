@@ -1,0 +1,1 @@
+This file is created as a sample to learn core module (fs) write file 

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="para1"></p>
+    <p id="para2"></p>
+    <p id="para3"></p>
+    <p id="para4"></p>
+    <script>
+        document.querySelector('p').innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta repudiandae iste dolorem commodi corporis! Eum ut rerum cupiditate itaque, praesentium tenetur neque rem aliquam tempora nobis repellat consequatur quibusdam ratione!'
+        document.querySelector('#para2').innerHTML = 'this is para 2'
+        document.querySelector('#para3').innerHTML = 'this is para 3'
+        document.querySelector('#para4').innerHTML = 'this is para 4'
+        const titles= document.querySelectorAll('p')
+        titles[3].textContent = 'Fourth paragraph'
+    </script>
+    </body>
+</html>
